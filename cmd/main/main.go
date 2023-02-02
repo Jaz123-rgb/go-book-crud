@@ -7,6 +7,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
+
 func main() {
 	r := mux.NewRouter()
 	routes.RegisterBookStoreRoutes(r)
