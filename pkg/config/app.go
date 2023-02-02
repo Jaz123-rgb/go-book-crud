@@ -8,10 +8,6 @@ var (
 	db *gorm.DB
 )
 
-
-
-
-
 	
 func Connect() {
 	d, err := gorm.Open("mysql", "root:123456@/simplerest?charset=utf8&parseTime=True&loc=Local")
